@@ -1,0 +1,36 @@
+body{
+    background-color:gray;
+}
+#header{
+    border: 7px solid purple;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+label{
+    font-size: 55px;
+}
+#search{
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    margin-right: 1cm;
+    border: 1px solid orchid;
+    height: 50px;
+    width: 200px;
+    font-size: 35px
+}
+#submit{
+    height: 50px;
+    background-color: aquamarine;
+}
+#clear{
+    margin-left: 1cm;
+    height: 50px;
+    background-color: orchid;
+}
+#results{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
